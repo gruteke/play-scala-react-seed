@@ -245,3 +245,93 @@ WARNING: Unmatched cancel notification for request id 5
 2022.09.11 18:25:58 WARN  no build target for: C:\Users\gruteke\Documents\GitHub\play-scala-react-seed\build.sbt
 2022.09.11 18:26:05 WARN  no build target for: C:\Users\gruteke\Documents\GitHub\play-scala-react-seed\ui-build.sbt
 2022.09.11 18:26:59 INFO  shutting down Metals
+2022.09.11 20:20:38 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\GitHub\play-scala-react-seed\.metals\lsp.trace.json or C:\Users\rgrut\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.09.11 20:20:39 INFO  logging to file C:\GitHub\play-scala-react-seed\.metals\metals.log
+2022.09.11 20:20:39 INFO  Started: Metals version 0.11.8 in workspace 'C:\GitHub\play-scala-react-seed' for client Visual Studio Code 1.70.2.
+2022.09.11 20:20:40 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.09.11 20:20:41 INFO  time: initialize in 2.01s
+2022.09.11 20:20:43 WARN  Build server is not auto-connectable.
+2022.09.11 20:20:46 INFO  running 'C:\Users\rgrut\.jabba\jdk\adopt@1.11.0-11\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\rgrut\AppData\Local\Temp\metals13813201141748005108\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.09.11 20:20:49 INFO  [info] welcome to sbt 1.7.1 (AdoptOpenJDK Java 11.0.11)
+2022.09.11 20:20:51 INFO  [info] loading global plugins from C:\Users\rgrut\.sbt\1.0\plugins
+2022.09.11 20:20:53 INFO  [info] loading settings for project play-scala-react-seed-build-build-build from metals.sbt ...
+2022.09.11 20:20:53 INFO  [info] loading project definition from C:\GitHub\play-scala-react-seed\project\project\project
+2022.09.11 20:20:53 INFO  [info] loading settings for project play-scala-react-seed-build-build from metals.sbt ...
+2022.09.11 20:20:53 INFO  [info] loading project definition from C:\GitHub\play-scala-react-seed\project\project
+2022.09.11 20:21:05 INFO  [success] Generated .bloop\play-scala-react-seed-build-build.json
+2022.09.11 20:21:05 INFO  [success] Total time: 11 s, completed 11 Sep 2022, 20:21:05
+2022.09.11 20:21:05 INFO  [info] loading settings for project play-scala-react-seed-build from metals.sbt,plugins.sbt ...
+2022.09.11 20:21:05 INFO  [info] loading project definition from C:\GitHub\play-scala-react-seed\project
+2022.09.11 20:21:11 INFO  [success] Generated .bloop\play-scala-react-seed-build.json
+2022.09.11 20:21:11 INFO  [info] compiling 2 Scala sources to C:\GitHub\play-scala-react-seed\project\target\scala-2.12\sbt-1.0\classes ...
+2022.09.11 20:21:11 INFO  [info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.16. Compiling...
+2022.09.11 20:21:27 INFO  [info]   Compilation completed in 15.472s.
+2022.09.11 20:21:30 INFO  [info] done compiling
+2022.09.11 20:21:30 INFO  [success] Total time: 25 s, completed 11 Sep 2022, 20:21:31
+2022.09.11 20:21:38 ERROR C:\GitHub\play-scala-react-seed\build.sbt:11: warning: method sonatypeRepo in class ResolverFunctions is deprecated (since 1.7.0): Use sonatypeOssRepos instead
+2022.09.11 20:21:38 ERROR resolvers += Resolver.sonatypeRepo("snapshots")
+2022.09.11 20:21:38 ERROR                       ^
+2022.09.11 20:21:42 ERROR C:\GitHub\play-scala-react-seed\ui-build.sbt:108: warning: method in in trait ScopingSetting is deprecated (since 1.5.0): `in` is deprecated; migrate to slash syntax - https://www.scala-sbt.org/1.x/docs/Migrating-from-sbt-013x.html#slash
+2022.09.11 20:21:42 ERROR test := ((test in Test) dependsOn `ui-test`).value
+2022.09.11 20:21:42 ERROR                ^
+2022.09.11 20:21:43 INFO  [info] loading settings for project root from build.sbt,ui-build.sbt ...
+2022.09.11 20:21:43 INFO  [info]   __              __
+2022.09.11 20:21:43 INFO  [info]   \ \     ____   / /____ _ __  __
+2022.09.11 20:21:43 INFO  [info]    \ \   / __ \ / // __ `// / / /
+2022.09.11 20:21:43 INFO  [info]    / /  / /_/ // // /_/ // /_/ /
+2022.09.11 20:21:43 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /
+2022.09.11 20:21:43 INFO  [info]       /_/               /____/
+2022.09.11 20:21:43 INFO  [info] 
+2022.09.11 20:21:43 INFO  [info] Version 2.8.16 running Java 11.0.11
+2022.09.11 20:21:43 INFO  [info] 
+2022.09.11 20:21:43 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:
+2022.09.11 20:21:43 INFO  [info] https://www.playframework.com/sponsors
+2022.09.11 20:21:43 INFO  [info] 
+2022.09.11 20:21:53 INFO  [success] Generated .bloop\root.json
+2022.09.11 20:21:53 INFO  [success] Generated .bloop\root-test.json
+2022.09.11 20:21:53 INFO  [success] Total time: 10 s, completed 11 Sep 2022, 20:21:53
+2022.09.11 20:21:54 INFO  time: ran 'sbt bloopInstall' in 1m7s
+2022.09.11 20:21:54 INFO  Attempting to connect to the build server...
+2022.09.11 20:21:54 INFO  Setting up current java home C:\Users\rgrut\.jabba\jdk\adopt@1.11.0-11 in C:\Users\rgrut\.bloop\bloop.json
+2022.09.11 20:22:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitHub\play-scala-react-seed\.metals\bsp.trace.json or C:\Users\rgrut\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.09.11 20:22:16 INFO  Attempting to connect to the build server...
+2022.09.11 20:22:16 INFO  Bloop uses C:\Users\rgrut\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\rgrut\.bloop\bloop.json
+2022.09.11 20:22:16 INFO  Attempting to connect to the build server...
+2022.09.11 20:22:16 INFO  Bloop uses C:\Users\rgrut\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\rgrut\.bloop\bloop.json
+2022.09.11 20:22:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitHub\play-scala-react-seed\project\.metals\bsp.trace.json or C:\Users\rgrut\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.09.11 20:22:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitHub\play-scala-react-seed\project\project\.metals\bsp.trace.json or C:\Users\rgrut\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.09.11 20:22:20 INFO  time: Connected to build server in 26s
+2022.09.11 20:22:20 INFO  Connected to Build server: Bloop v1.5.3
+2022.09.11 20:22:21 INFO  time: Imported build in 0.27s
+2022.09.11 20:22:25 INFO  Required scalafmt dialect rewrite to 'scala213'. Directories:
+- app
+- test
+- target\scala-2.13\routes\main
+2022.09.11 20:22:35 INFO  time: indexed workspace in 13s
+2022.09.11 20:35:52 INFO  shutting down Metals
+2022.09.11 20:35:52 INFO  Shut down connection with build server.
+2022.09.11 20:35:52 INFO  Shut down connection with build server.
+2022.09.11 20:35:52 INFO  Shut down connection with build server.
+2022.09.11 20:36:15 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\GitHub\play-scala-react-seed\.metals\lsp.trace.json or C:\Users\rgrut\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.09.11 20:36:17 INFO  logging to file C:\GitHub\play-scala-react-seed\.metals\metals.log
+2022.09.11 20:36:17 INFO  Started: Metals version 0.11.8 in workspace 'C:\GitHub\play-scala-react-seed' for client Visual Studio Code 1.71.0.
+2022.09.11 20:36:19 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.09.11 20:36:21 INFO  time: initialize in 3.71s
+2022.09.11 20:36:24 INFO  Attempting to connect to the build server...
+2022.09.11 20:36:24 INFO  Bloop uses C:\Users\rgrut\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\rgrut\.bloop\bloop.json
+2022.09.11 20:36:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitHub\play-scala-react-seed\.metals\bsp.trace.json or C:\Users\rgrut\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.09.11 20:36:24 INFO  skipping build import with status 'Installed'
+2022.09.11 20:36:24 INFO  Attempting to connect to the build server...
+2022.09.11 20:36:24 INFO  Bloop uses C:\Users\rgrut\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\rgrut\.bloop\bloop.json
+2022.09.11 20:36:24 INFO  Attempting to connect to the build server...
+2022.09.11 20:36:24 INFO  Bloop uses C:\Users\rgrut\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\rgrut\.bloop\bloop.json
+2022.09.11 20:36:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitHub\play-scala-react-seed\project\project\.metals\bsp.trace.json or C:\Users\rgrut\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.09.11 20:36:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\GitHub\play-scala-react-seed\project\.metals\bsp.trace.json or C:\Users\rgrut\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.09.11 20:36:24 INFO  time: Connected to build server in 0.84s
+2022.09.11 20:36:24 INFO  Connected to Build server: Bloop v1.5.3
+2022.09.11 20:36:24 INFO  time: Imported build in 0.35s
+2022.09.11 20:36:40 INFO  time: indexed workspace in 14s
+2022.09.11 20:40:06 INFO  shutting down Metals
+2022.09.11 20:40:06 INFO  Shut down connection with build server.
+2022.09.11 20:40:06 INFO  Shut down connection with build server.
+2022.09.11 20:40:06 INFO  Shut down connection with build server.
