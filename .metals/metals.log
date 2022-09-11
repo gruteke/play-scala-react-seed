@@ -227,3 +227,21 @@
 2022.09.11 18:12:25 WARN  no build target for: C:\Users\gruteke\Documents\GitHub\play-scala-react-seed\app\controllers\FrontendController.scala
 2022.09.11 18:13:11 WARN  no build target for: C:\Users\gruteke\Documents\GitHub\play-scala-react-seed\ui-build.sbt
 2022.09.11 18:16:15 INFO  shutting down Metals
+2022.09.11 18:22:41 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\gruteke\Documents\GitHub\play-scala-react-seed\.metals\lsp.trace.json or C:\Users\gruteke\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.09.11 18:22:47 INFO  logging to file C:\Users\gruteke\Documents\GitHub\play-scala-react-seed\.metals\metals.log
+2022.09.11 18:22:47 INFO  Started: Metals version 0.11.8 in workspace 'C:\Users\gruteke\Documents\GitHub\play-scala-react-seed' for client Visual Studio Code 1.71.0.
+2022.09.11 18:22:52 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.09.11 18:22:53 INFO  time: initialize in 6.89s
+2022.09.11 18:22:59 WARN  Build server is not auto-connectable.
+2022.09.11 18:22:59 WARN  no build target for: C:\Users\gruteke\Documents\GitHub\play-scala-react-seed\app\controllers\FrontendController.scala
+2022.09.11 18:23:01 INFO  skipping build import with status 'Cancelled'
+2022.09.11 18:23:13 INFO  no build target found for C:\Users\gruteke\Documents\GitHub\play-scala-react-seed\app\controllers\FrontendController.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.09.11 18:23:14 WARN  no build target for: C:\Users\gruteke\Documents\GitHub\play-scala-react-seed\app\controllers\HomeController.scala
+ספט׳ 11, 2022 6:23:14 אחה״צ org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2022.09.11 18:23:22 INFO  time: code lens generation in 20s
+2022.09.11 18:23:22 INFO  time: code lens generation in 7.44s
+2022.09.11 18:25:32 WARN  no build target for: C:\Users\gruteke\Documents\GitHub\play-scala-react-seed\app\controllers\HomeController.scala
+2022.09.11 18:25:58 WARN  no build target for: C:\Users\gruteke\Documents\GitHub\play-scala-react-seed\build.sbt
+2022.09.11 18:26:05 WARN  no build target for: C:\Users\gruteke\Documents\GitHub\play-scala-react-seed\ui-build.sbt
+2022.09.11 18:26:59 INFO  shutting down Metals
