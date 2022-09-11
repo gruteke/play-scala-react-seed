@@ -206,3 +206,11 @@
 2022.09.11 18:06:23 INFO  user cancelled sbt bloopInstall
 2022.09.11 18:06:23 INFO  time: ran 'sbt bloopInstall' in 49s
 2022.09.11 18:06:25 INFO  shutting down Metals
+2022.09.11 18:07:24 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\gruteke\Documents\GitHub\play-scala-react-seed\.metals\lsp.trace.json or C:\Users\gruteke\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.09.11 18:07:26 INFO  logging to file C:\Users\gruteke\Documents\GitHub\play-scala-react-seed\.metals\metals.log
+2022.09.11 18:07:26 INFO  Started: Metals version 0.11.8 in workspace 'C:\Users\gruteke\Documents\GitHub\play-scala-react-seed' for client Visual Studio Code 1.71.0.
+2022.09.11 18:07:29 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.09.11 18:07:30 INFO  time: initialize in 4.1s
+2022.09.11 18:07:34 WARN  Build server is not auto-connectable.
+2022.09.11 18:07:34 INFO  skipping build import with status 'Cancelled'
+2022.09.11 18:08:36 INFO  shutting down Metals
